@@ -1,0 +1,91 @@
+html {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+        margin: 0;
+        padding: 0;
+        background-repeat:no-repeat;
+}
+
+#wrapper {
+    height: auto;
+    width: auto;
+    margin: none;
+    padding: none;
+    background: linear-gradient(#02102c, #3bc3d8);
+
+}
+
+#home h1, h2 {
+    margin-top: 0;
+    color: rgb(90, 113, 152);
+    font-weight: bold;
+  }
+
+#home {
+    height: 600px;
+    width: 100%;
+    background-image: url(/images/Korčula-main.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: none;
+    padding-top: none;
+    
+}
+
+#activites-title {
+    text-align: center;
+    color: rgb(172, 243, 181);
+}
+
+#activites {
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content:space-evenly;
+    
+    
+}
+
+
+
+.columns {
+    height: 500px;
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px 0 55px;
+    text-align: center;
+    font-size: larger;
+}
+
+.columns img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    height: 25%;
+    width: 800px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 450px;
+
+}
+
+#me {
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+
+}
